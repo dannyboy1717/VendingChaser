@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingChaser", "VendingChaser\VendingChaser.csproj", "{37E6C0A0-E13A-465D-8DD4-72764854C9A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingChaserTrainer", "VendingChaserTrainer\VendingChaserTrainer.csproj", "{A93F1C99-DE92-4563-9153-9F6E52AB2BEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,7 +15,18 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{37E6C0A0-E13A-465D-8DD4-72764854C9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{37E6C0A0-E13A-465D-8DD4-72764854C9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E6C0A0-E13A-465D-8DD4-72764854C9A1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{37E6C0A0-E13A-465D-8DD4-72764854C9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37E6C0A0-E13A-465D-8DD4-72764854C9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93F1C99-DE92-4563-9153-9F6E52AB2BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93F1C99-DE92-4563-9153-9F6E52AB2BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93F1C99-DE92-4563-9153-9F6E52AB2BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A93F1C99-DE92-4563-9153-9F6E52AB2BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F4AAF1F-5DDD-41D1-8527-3C18598ECF9D}
 	EndGlobalSection
 EndGlobal
